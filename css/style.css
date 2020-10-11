@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+  }
+
+  h1 {
+    color: #008081;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    color: salmon;
+    font-family: verdana;
+    font-size: 20px;
+  }
