@@ -1,0 +1,47 @@
+
+nav {
+  background: #DBEBF4;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px; /* refers to top and bottom  & 15 to left and right*/
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+nav ul{
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+
+}
+
+header {
+  top: 110px;
+  position: relative;
+  margin-bottom: 220px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130px;
+}
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+}
+
+h1, h2, .skills-list {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+img {
+  /* this is limiting the width of the image to take 100% of parent column */
+  max-width: 100%;
+}
