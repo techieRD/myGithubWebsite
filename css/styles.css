@@ -1,13 +1,17 @@
 
-header {
-  top: 110px;
-  position: relative;
-  margin-bottom: 220px;
-}
+
 
 body{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 15px;
+}
+
+header {
+  top: 70px;
+  position: relative;
+  margin-bottom: 220px;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -60,4 +64,8 @@ nav ul{
   display: inline-block;
   border-radius: 20px;
   background-color: #1d9c8a;
+}
+
+figcaption {
+  font-size: 10px;
 }
