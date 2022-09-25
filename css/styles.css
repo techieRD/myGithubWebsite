@@ -9,7 +9,7 @@ body{
 header {
   top: 70px;
   position: relative;
-  margin-bottom: 220px;
+  margin-bottom: 150px;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,17 +70,18 @@ nav ul{
 
 figcaption {
   font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .profile-img {
   box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
   margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .skills-list {
   text-align: center;
-  font-size: 30px
+  font-size: 30px;
+  color: #065858;
 }
 
 .project {
@@ -94,4 +95,18 @@ figcaption {
 
 .project .button {
   margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
+}
+
+footer h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.right-alignment {
+  text-align: right;
 }
